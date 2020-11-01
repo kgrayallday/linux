@@ -1,5 +1,4 @@
-# linux
-## My Linux Debian Set Up
+# My Linux (Debian) Setup
 
 ## Machine/Hardware
 Mid 2012 MacBookAir5,2 (A1466)
@@ -11,7 +10,7 @@ KDE Plasma
 
 ### Customize Application Menu Icon
 Octopi
-Under System Icons > Status > Octopi-ok || Octopi-Indicator
+System Icons > Status > "Octopi-ok" || "Octopi-Indicator"
 
 ### Customize Trackpad 
 Install libinput && xdotool && fusuma
