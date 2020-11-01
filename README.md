@@ -14,6 +14,30 @@ System Icons > Status > "Octopi-ok" || "Octopi-Indicator"
 
 ### Customize Trackpad 
 Install libinput && xdotool && fusuma
+~/.config/fusuma/config.yml
+```
+swipe:
+  3:
+    left:
+      command: 'xdotool key ctrl+alt+Left'
+    right:
+      command: 'xdotool key ctrl+alt+Right'
+    up:
+      command: 'xdotool key ctrl+alt+Up'
+      threshold: 1.5
+    down:
+      command: 'xdotool key ctrl+alt+Down'
+      threshold: 1.5
+      
+pinch:
+  2:
+    in:
+      command: 'xdotool key ctrl+plus'
+      threshold: 0.1
+    out:
+      command: 'xdotool key ctrl+minus'
+      threshold: 0.1
+```
 
 ### Themes 
 Desktop: Arc Dark
