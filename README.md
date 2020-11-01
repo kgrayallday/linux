@@ -1,6 +1,6 @@
 # My Linux (Debian) Setup
 
-## Machine/Hardware
+### Machine/Hardware
 Mid 2012 MacBookAir5,2 (A1466)
 1.8 GHz Core i5
 8Gb Ram / 128 Gb SSD
