@@ -14,6 +14,7 @@ System Icons > Status > "Octopi-ok" || "Octopi-Indicator"
 
 ### Customize Trackpad 
 Install libinput && xdotool && fusuma
+
 ~/.config/fusuma/config.yml
 ```
 swipe:
@@ -41,4 +42,5 @@ pinch:
 
 ### Themes 
 Desktop: Arc Dark
+
 Cursor: Breeze
