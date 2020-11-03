@@ -29,6 +29,10 @@ swipe:
     down:
       command: 'xdotool key ctrl+alt+Down'
       threshold: 1.5
+  4:
+    up:
+      command: 'xdotool key ctrl+F8'
+
       
 pinch:
   2:
