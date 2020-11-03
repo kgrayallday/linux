@@ -21,19 +21,23 @@ swipe:
   3:
     left:
       command: 'xdotool key ctrl+alt+Left'
+      # move to left workspace
     right:
       command: 'xdotool key ctrl+alt+Right'
+      # move to right workspace
     up:
       command: 'xdotool key ctrl+alt+Up'
+      # move to above activity
       threshold: 1.5
     down:
       command: 'xdotool key ctrl+alt+Down'
+      # move to below activity
       threshold: 1.5
   4:
     up:
       command: 'xdotool key ctrl+F8'
-
-      
+      # show the desktop grid
+   
 pinch:
   2:
     in:
