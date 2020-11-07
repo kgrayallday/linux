@@ -20,10 +20,10 @@ Install libinput && xdotool && fusuma
 swipe:
   3:
     left:
-      command: 'xdotool key ctrl+alt+Left'
+      command: 'xdotool key ctrl+alt+Right'
       # move to left workspace
     right:
-      command: 'xdotool key ctrl+alt+Right'
+      command: 'xdotool key ctrl+alt+Left'
       # move to right workspace
     up:
       command: 'xdotool key ctrl+alt+Up'
