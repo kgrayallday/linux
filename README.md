@@ -47,6 +47,18 @@ pinch:
       command: 'xdotool key ctrl+minus'
       threshold: 0.1
 ```
+Put the following in /usr/shared/X11.xorg.conf.d/30-touchpad.conf in order to keep tap click while also disabling tap to drag
+```
+Section "InputClass"
+Identifier "touchpad"
+Driver "libinput"
+  MatchIsTouchpad "on"
+  Option "Tapping" "on"
+  Option "NaturalScrolling" "on"
+  Option "ClickMethod" "clickfinger"
+  Option "TappingDrag" "false"
+EndSection
+```
 
 ### Themes 
 Desktop: Arc Dark
