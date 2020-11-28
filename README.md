@@ -8,7 +8,7 @@ Mid 2012 MacBookAir5,2 (A1466)
 ### Desktop Environment: 
 KDE Plasma
 
-### Fix $USER not in sudoers file after Debian install
+### Fix "$USER not in sudoers file" after Debian install
 ```
 $ su
 $ echo "yourusername ALL=(ALL) ALL" >> /etc/sudoers
