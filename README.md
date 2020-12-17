@@ -40,9 +40,16 @@ swipe:
       # move to below activity
       threshold: 1.5
   4:
+    left:
+      command: 'xdotool key super+Left'
+    right:
+      command: 'xdotool key super+Right'
     up:
-      command: 'xdotool key ctrl+F8'
+      command: 'xdotool key ctrl+F9'
       # show the desktop grid
+    down:
+      # show current desktop windows  
+      command: 'xdotool key ctrl+F8'
    
 pinch:
   2:
