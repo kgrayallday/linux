@@ -1,10 +1,3 @@
-# My Linux (Debian) Setup
-## Machine/Hardware
-Mid 2012 MacBookAir5,2 (A1466)
-1.8 GHz Core i5
-8Gb Ram / 128 Gb SSD
-
-## Configurations
 ### Fix "$USER not in sudoers file" after Debian install
 ```
 $ su
