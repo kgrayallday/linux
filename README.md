@@ -4,11 +4,11 @@ $ su
 $ echo "yourusername ALL=(ALL) ALL" >> /etc/sudoers
 ```
 
-### Customize Application Menu Icon
+### Application Menu Icon
 Octopi (Part of the Papirus icon theme based on paper icon set)
 System Icons > Status > "Octopi-ok" || "Octopi-Indicator"
 
-### Customize Trackpad 
+### Trackpad 
 Install libinput && xdotool && fusuma
 
 ~/.config/fusuma/config.yml
